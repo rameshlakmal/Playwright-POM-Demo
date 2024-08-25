@@ -72,7 +72,7 @@ export default class HomePage{
     }
 
     async Remove_SauceLabsOnesie_FromCart(){
-        await this.action.click(this.locators.ADD_SAUCE_LABS_ONESIE)
+        await this.action.click(this.locators.REMOVE_SAUCE_LABS_ONESIE)
     }
 
 
