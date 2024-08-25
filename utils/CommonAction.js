@@ -4,7 +4,7 @@ export default class CommonAction{
     }
 
     async navigate(url){
-        // await this.page.pause()
+        await this.page.pause()
         await this.page.goto(url)
     }
 

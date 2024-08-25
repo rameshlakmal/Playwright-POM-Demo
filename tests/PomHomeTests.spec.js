@@ -27,6 +27,7 @@ test.describe('Item Add and Remove from Cart Test' , () => {
         await pm.homePage.assertCartCount('4')
         await pm.homePage.Add_SauceLabsOnesie_ToCart();
         await pm.homePage.assertCartCount('5')
+        
     })
 
     test('Remove from Cart', async () =>{
